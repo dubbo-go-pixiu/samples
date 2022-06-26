@@ -67,11 +67,17 @@ if run pixiu manually in pixiu project, use command as below.
 
 #### Try a request
 
-use curl to try or use unit test
+use curl to send request
 
 ```bash
 curl -X POST 'localhost:8881/api/v1/test-dubbo/user' -d '{"id":"0003","code":3,"name":"dubbogo","age":99}' --header 'Content-Type: application/json' 
+```
+
+or just run unit test
+
+```bash
 ./start.sh startTest body
+
 ```
 
 #### Clean
