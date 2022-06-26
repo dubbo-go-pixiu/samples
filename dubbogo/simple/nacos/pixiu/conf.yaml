@@ -46,6 +46,8 @@ static_resources:
                             protocol: "nacos"
                             timeout: "3s"
                             address: "127.0.0.1:8848"
+                            username: nacos
+                            password: nacos
                             group: test-group
                             namespace: test-namespace
   adapters:
@@ -57,5 +59,7 @@ static_resources:
             protocol: nacos
             address: "127.0.0.1:8848"
             timeout: "5s"
+            username: nacos
+            password: nacos
             group: test-group
             namespace: test-namespace
