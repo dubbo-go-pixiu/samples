@@ -14,17 +14,17 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-#array=("dubbogo/simple/body")
-#array+=("dubbogo/simple/jaeger")
-#array+=("dubbogo/simple/mix")
-#array+=("dubbogo/simple/proxy")
-#array+=("dubbogo/simple/query")
-#array+=("dubbogo/simple/uri")
-#array+=("dubbogo/simple/resolve")
-#array+=("dubbogo/simple/zookeeper")
+array=("dubbogo/simple/body")
+array+=("dubbogo/simple/jaeger")
+array+=("dubbogo/simple/mix")
+array+=("dubbogo/simple/proxy")
+array+=("dubbogo/simple/query")
+array+=("dubbogo/simple/uri")
+array+=("dubbogo/simple/resolve")
+array+=("dubbogo/simple/zookeeper")
 array+=("dubbogo/simple/nacos")
-#array+=("dubbogo/simple/triple")
-#array+=("dubbogo/simple/direct")
+array+=("dubbogo/simple/triple")
+array+=("dubbogo/simple/direct")
 
 #
 ##http
