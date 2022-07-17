@@ -3,16 +3,16 @@ include jaeger and http to dubbo
 cd samples/dubbogo/simple/
 
 2. 进行环境准备，启动 zk 和准备对应配置文件
-./start.sh prepare resolve
+./start.sh prepare bestdo
 
 3. 启动 dubbo server
-./start.sh startServer resolve
+./start.sh startServer bestdo
 
 4. 启动 pixiu 
-./start.sh startPixiu resolve
+./start.sh startPixiu bestdo
 
 5. 启动 Client 测试用例
-./start.sh startTest resolve
+./start.sh startTest bestdo
 
 或者使用 curl 
 
