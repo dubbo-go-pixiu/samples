@@ -67,4 +67,4 @@ wasm:
   services:
     - name: header
       config:
-        path: data/header.wasm
+        path: data/filter.wasm
