@@ -4,7 +4,7 @@ go 1.15
 
 require (
 	dubbo.apache.org/dubbo-go/v3 v3.0.2-0.20220519062747-f6405fa79d5c
-	github.com/apache/dubbo-go-hessian2 v1.11.0
+	github.com/apache/dubbo-go-hessian2 v1.11.1
 	github.com/apache/dubbo-go-pixiu v0.5.0-rc01.0.20220624103422-ef05b090d78f
 	github.com/dubbogo/gost v1.11.25
 	github.com/dubbogo/grpc-go v1.42.9
@@ -15,8 +15,8 @@ require (
 	github.com/spf13/cobra v1.1.3
 	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/stretchr/testify v1.7.1
+	github.com/tetratelabs/proxy-wasm-go-sdk v0.19.0
 	google.golang.org/genproto v0.0.0-20211118181313-81c1377c94b1
 	google.golang.org/grpc v1.45.0
 	google.golang.org/protobuf v1.28.0
-
 )
