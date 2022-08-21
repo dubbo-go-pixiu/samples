@@ -28,6 +28,16 @@ container:
   env:
     - name: MODE
       value: "standalone"
+    - name: POD_NAME
+      valueFrom:
+        fieldRef:
+          apiVersion: v1
+          fieldPath: metadata.name
+    - name: POD_NAMESPACE
+      valueFrom:
+        fieldRef:
+          apiVersion: v1
+          fieldPath: metadata.namespace
   ports:
     - name: http
       containerPort: 8883
