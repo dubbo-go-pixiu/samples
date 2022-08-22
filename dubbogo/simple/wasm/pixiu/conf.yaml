@@ -65,6 +65,6 @@ static_resources:
     reject_policy: "immediacy"
 wasm:
   services:
-    - name: header
+    - name: wasm.header
       config:
         path: wasm/data/filter.wasm
