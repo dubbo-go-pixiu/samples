@@ -37,7 +37,7 @@ static_resources:
                   - name: dgp.filter.http.webassembly
                     config:
                       wasm_services:
-                        - name: header
+                        - name: wasm.header
                   - name: dgp.filter.http.dubboproxy
                     config:
                       dubboProxyConfig:
