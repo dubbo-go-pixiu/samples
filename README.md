@@ -1,4 +1,5 @@
-# samples
+# samples 
+## has been removed to [dubbo-go-pixiu-samples](https://github.com/apache/dubbo-go-pixiu-samples)
 samples for [dubbo-go-pixiu](https://github.com/apache/dubbo-go-pixiu)
 
 
