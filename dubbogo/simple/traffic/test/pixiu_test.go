@@ -34,11 +34,11 @@ func TestGET(t *testing.T) {
 	client := &http.Client{Timeout: 5 * time.Second}
 	req, err := http.NewRequest("GET", url, nil)
 	assert.NoError(t, err)
-	req.Header.Add("canary-by-header", "10")
+	req.Header.Add("canary-by-header", "v2")
 	resp, err := client.Do(req)
 	assert.NoError(t, err)
 	assert.NotNil(t, resp)
 	assert.Equal(t, 200, resp.StatusCode)
 	s, _ := ioutil.ReadAll(resp.Body)
-	assert.True(t, strings.Contains(string(s), `"server": "v1"`))
+	assert.True(t, strings.Contains(string(s), `"server": "v2"`))
 }

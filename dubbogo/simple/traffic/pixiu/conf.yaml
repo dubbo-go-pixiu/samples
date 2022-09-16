@@ -41,15 +41,13 @@ static_resources:
                     config:
                       traffics:
                         - name: "user-v1"
-                          router: "/user/1"
-                          model: canary-by-header
-                          canary: canary-by-header
-                          value: 10
+                          router: "/user"
+                          canary-by-header: v1
+                          canary-weight: 10
                         - name: "user-v2"
-                          router: "/user/1"
-                          model: canary-weight
-                          canary: canary-weight
-                          value: 90
+                          router: "/user"
+                          canary-by-header: v2
+                          canary-weight: 10
                   - name: dgp.filter.http.httpproxy
                     config:
       config:

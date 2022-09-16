@@ -34,6 +34,5 @@ go run cmd/pixiu/*.go gateway start -c samples/dubbogo/simple/traffic/pixiu/conf
 
 ```shell
 curl http://localhost:8888/user
-curl -H "canary-by-header: 10" http://localhost:8888/user
-curl -H "canary-weight: 90" http://localhost:8888/user
+curl -H "canary-by-header: v1" http://localhost:8888/user
 ```
